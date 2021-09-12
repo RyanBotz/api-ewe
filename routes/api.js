@@ -3081,7 +3081,7 @@ router.get('/cekapikey', async(req, res, next) => {
       status: 'active',
       creator: `${creator}`,
       apikey: `${apiKey}`,
-      message: 'APIKEY ACTIVE'
+      message: 'APIKEY ACTIVE',
       limit: '9999999999'
     })
   } else {
